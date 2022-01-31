@@ -49,6 +49,7 @@
   align-items: center;
   border-bottom: var(--blank-line);
   padding-bottom: 5px;
+  margin-top: 25px;
 }
 
 .open-post__title {
@@ -145,6 +146,8 @@
 
 .open-post2__hashtags {
   margin-bottom: 5px;
+  text-transform: uppercase;
+  opacity: 0.6;
 }
 
 .open-post2__members-count {
