@@ -11,6 +11,28 @@
   font-weight: 900;
 }
 
+.screen-header__icon {
+  display: flex;
+  position: relative;
+}
 .screen-header__icon span {
   margin-left: 25px;
+}
+
+.screen-header__dot {
+  position: absolute;
+  bottom: 20px;
+  left: 65px;
+}
+
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icon .fa-cog:hover {
+  animation: spin 1s linear infinite;
 }
